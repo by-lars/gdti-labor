@@ -1,0 +1,31 @@
+yo what up
+very epic
+linux moment
+
+yo what up
+very epic
+linux moment
+
+
+Aufgabe 2
+nl, cat, less, more, strings, head, tail, tac
+
+Aufgabe 3
+3.1:
+wc sortiere_mich.txt
+Bytes, Worte, Zeilen
+646, 126, 20
+
+3.2:
+grep -i absicht sortiere_mich.txt
+Zeilen 5 und 8
+
+3.3:
+sort -k4n sortiere_mich.txt
+
+Knobelaufgabe:
+head -n5 sortiert.txt
+tail -n5 sortiert.txt
+tail -n+6 sortiert.txt
+head -n-5 sortiert.txt
+
