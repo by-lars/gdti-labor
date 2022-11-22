@@ -1,0 +1,7 @@
+v 4
+file . "wuerfel_d2_tb.vhdl" "5896a5b6dbefb669806516796ac87d0a1bdb18ca" "20221122142036.805":
+  entity wuerfel_d2_tb at 1( 0) + 0 on 25;
+  architecture behav of wuerfel_d2_tb at 6( 93) + 0 on 26;
+file . "wuerfel_d2.vhdl" "df644811c17e34c984f178e2dd266a962f806678" "20221122142036.789":
+  entity wuerfel_d2 at 1( 0) + 0 on 23;
+  architecture behav of wuerfel_d2 at 11( 201) + 0 on 24;
