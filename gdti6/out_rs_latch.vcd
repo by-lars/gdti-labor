@@ -1,0 +1,84 @@
+$date
+  Tue Dec 13 14:57:46 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module rs_latch_tb $end
+$var reg 1 ! r $end
+$var reg 1 " s $end
+$var reg 1 # y $end
+$var reg 1 $ not_y $end
+$var reg 1 % expect_y $end
+$var reg 1 & expect_not_y $end
+$scope module rs_latch_0 $end
+$var reg 1 ' r $end
+$var reg 1 ( s $end
+$var reg 1 ) y $end
+$var reg 1 * not_y $end
+$var reg 1 + q $end
+$var reg 1 , not_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+0"
+0#
+1$
+0%
+1&
+1'
+0(
+0)
+1*
+0+
+1,
+#1
+0!
+0'
+#2
+1"
+1#
+0$
+1%
+0&
+1(
+1)
+0*
+1+
+0,
+#3
+0"
+0(
+#4
+1!
+0#
+1$
+0%
+1&
+1'
+0)
+1*
+0+
+1,
+#5
+0!
+0'
+#6
+1!
+1"
+0$
+0&
+1'
+1(
+0*
+0,
+#7
