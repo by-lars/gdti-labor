@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jan 24 14:39:28 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : sgi_main
+Top-level Entity Name : sgi_main_entity
+Family : Cyclone IV E
+Total logic elements : 100
+    Total combinational functions : 100
+    Dedicated logic registers : 48
+Total registers : 48
+Total pins : 43
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

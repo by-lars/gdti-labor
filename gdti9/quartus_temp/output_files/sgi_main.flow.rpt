@@ -1,0 +1,119 @@
+Flow report for sgi_main
+Tue Jan 24 14:39:36 2023
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++------------------------------------+------------------------------------------------+
+; Flow Status                        ; Successful - Tue Jan 24 14:39:36 2023          ;
+; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                      ; sgi_main                                       ;
+; Top-level Entity Name              ; sgi_main_entity                                ;
+; Family                             ; Cyclone IV E                                   ;
+; Device                             ; EP4CE22F17C6                                   ;
+; Timing Models                      ; Final                                          ;
+; Total logic elements               ; 101 / 22,320 ( < 1 % )                         ;
+;     Total combinational functions  ; 100 / 22,320 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 48 / 22,320 ( < 1 % )                          ;
+; Total registers                    ; 48                                             ;
+; Total pins                         ; 43 / 154 ( 28 % )                              ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0 / 608,256 ( 0 % )                            ;
+; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                                ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                  ;
++------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/24/2023 14:39:16 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; sgi_main            ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                      ;
++--------------------------+---------------------------------+---------------+-------------+------------+
+; Assignment Name          ; Value                           ; Default Value ; Entity Name ; Section Id ;
++--------------------------+---------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID    ; 128454786145335.167456755639877 ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP   ; 85                              ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP   ; 0                               ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY ; output_files                    ; --            ; --          ; --         ;
+; SYNTHESIS_EFFORT         ; Fast                            ; Auto          ; --          ; --         ;
+; TOP_LEVEL_ENTITY         ; sgi_main_entity                 ; sgi_main      ; --          ; --         ;
++--------------------------+---------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 418 MB              ; 00:00:22                           ;
+; Fitter               ; 00:00:06     ; 1.0                     ; 715 MB              ; 00:00:07                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 359 MB              ; 00:00:01                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:30                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++----------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; tiprak09         ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
+; Fitter               ; tiprak09         ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
+; Assembler            ; tiprak09         ; Ubuntu 22.04.1 ; 22         ; x86_64         ;
++----------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map sgi_main --write_settings_files=off
+quartus_fit sgi_main --write_settings_files=off
+quartus_asm sgi_main --write_settings_files=off
+
+
+
